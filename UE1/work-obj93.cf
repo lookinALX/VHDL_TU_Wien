@@ -1,0 +1,48 @@
+v 4
+file . "testbench.vhdl" "a02b073dd62a6490eaae18d8d3f1990921affd30" "20231019102400.439":
+  entity testbench at 1( 0) + 0 on 132;
+  architecture tb of testbench at 7( 80) + 0 on 133;
+file . "gates_beh.vhdl" "ac6e5ab92714ec1e964cd5c9728c02afe1229f6d" "20231019102400.439":
+  architecture behavior of gates at 1( 0) + 0 on 131;
+file . "gates.vhdl" "22d0cb0c7e171d446df38bd7ac6369b7fbecc5a5" "20231019102400.438":
+  entity gates at 1( 0) + 0 on 130;
+file . "IEEE_1164_Gates_pkg.vhdl" "9ea54b1626884f946874e2f9de56f2e4d0d26332" "20231019102400.438":
+  package ieee_1164_gates_pkg at 1( 0) + 0 on 129;
+file . "IEEE_1164_Gates_beh.vhdl" "cc3f3e5d71686d905ea6e218600cf4481b546504" "20231019102400.438":
+  architecture behavior of and2 at 1( 0) + 0 on 111;
+  architecture behavior of and3 at 12( 222) + 0 on 112;
+  architecture behavior of and4 at 17( 316) + 0 on 113;
+  architecture behavior of nand2 at 25( 506) + 0 on 114;
+  architecture behavior of nand3 at 30( 599) + 0 on 115;
+  architecture behavior of nand4 at 35( 699) + 0 on 116;
+  architecture behavior of or2 at 43( 894) + 0 on 117;
+  architecture behavior of or3 at 48( 979) + 0 on 118;
+  architecture behavior of or4 at 53( 1070) + 0 on 119;
+  architecture behavior of nor2 at 61( 1256) + 0 on 120;
+  architecture behavior of nor3 at 66( 1347) + 0 on 121;
+  architecture behavior of nor4 at 71( 1444) + 0 on 122;
+  architecture behavior of xor2 at 79( 1635) + 0 on 123;
+  architecture behavior of xor3 at 84( 1722) + 0 on 124;
+  architecture behavior of xor4 at 89( 1816) + 0 on 125;
+  architecture behavior of xnor2 at 98( 2006) + 0 on 126;
+  architecture behavior of xnor3 at 103( 2099) + 0 on 127;
+  architecture behavior of xnor4 at 108( 2199) + 0 on 128;
+file . "IEEE_1164_Gates.vhdl" "e6d9579d480f52ca8e97a7d3655960a181635351" "20231019102400.436":
+  entity and2 at 1( 0) + 0 on 93;
+  entity and3 at 17( 306) + 0 on 94;
+  entity and4 at 30( 552) + 0 on 95;
+  entity nand2 at 48( 922) + 0 on 96;
+  entity nand3 at 60( 1138) + 0 on 97;
+  entity nand4 at 73( 1386) + 0 on 98;
+  entity or2 at 90( 1757) + 0 on 99;
+  entity or3 at 102( 1969) + 0 on 100;
+  entity or4 at 115( 2213) + 0 on 101;
+  entity nor2 at 132( 2577) + 0 on 102;
+  entity nor3 at 143( 2793) + 0 on 103;
+  entity nor4 at 156( 3039) + 0 on 104;
+  entity xor2 at 173( 3406) + 0 on 105;
+  entity xor3 at 185( 3622) + 0 on 106;
+  entity xor4 at 198( 3868) + 0 on 107;
+  entity xnor2 at 215( 4237) + 0 on 108;
+  entity xnor3 at 227( 4453) + 0 on 109;
+  entity xnor4 at 240( 4701) + 0 on 110;
