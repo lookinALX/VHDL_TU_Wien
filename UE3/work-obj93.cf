@@ -1,0 +1,5 @@
+v 4
+file . "counter.vhdl" "2261dbc52723861154323e4f2e62f5ef61bf37fb" "20231104194722.296":
+  entity counter at 1( 0) + 0 on 21;
+file . "counter_beh.vhdl" "b84def34e7d56a6228baf29069bf32cdefc74b20" "20231104194722.296":
+  architecture behavior of counter at 1( 0) + 0 on 22;
