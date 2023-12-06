@@ -1,0 +1,5 @@
+v 4
+file . "pwm_beh.vhdl" "71627221959ff2560af156f1fe371c1fb0a0d8c1" "20231206205551.333":
+  architecture behavior of pwm at 1( 0) + 0 on 12;
+file . "pwm.vhdl" "c4ae4bb45a2252657e0421c964c6b1f378a3bee0" "20231206205551.333":
+  entity pwm at 1( 0) + 0 on 11;
