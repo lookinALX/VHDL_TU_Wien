@@ -1,0 +1,5 @@
+v 4
+file . "arithmetic_beh.vhdl" "e7a7ead86f02aaa6170cb9400f76facbb88696bb" "20231210173148.019":
+  architecture behavior of arithmetic at 1( 0) + 0 on 24;
+file . "arithmetic.vhdl" "af2dc26c88183d06827d5578ba996fb4fbe3c95d" "20231210173148.017":
+  entity arithmetic at 1( 0) + 0 on 23;
