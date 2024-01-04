@@ -1,0 +1,5 @@
+v 4
+file . "stepper_motor_beh.vhdl" "20fab119846ad4df4d0efc8fc530ba9312db066c" "20240102201512.154":
+  architecture behavior of stepper_motor at 1( 0) + 0 on 12;
+file . "stepper_motor.vhdl" "e7572c14ad18d2f4d862ccf457174477881132f2" "20240102201512.154":
+  entity stepper_motor at 1( 0) + 0 on 11;
