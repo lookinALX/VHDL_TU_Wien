@@ -1,0 +1,5 @@
+v 4
+file . "uart_tx_beh.vhdl" "5c123880b06664497e069488f1ad2213fcc8c0d7" "20240125172742.278":
+  architecture behavior of uart_tx at 1( 0) + 0 on 44;
+file . "uart_tx.vhdl" "1b197c514cbe5d927997b9e5392106e806901914" "20240125172742.278":
+  entity uart_tx at 1( 0) + 0 on 43;

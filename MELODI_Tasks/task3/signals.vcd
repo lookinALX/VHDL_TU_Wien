@@ -1,0 +1,196 @@
+$date
+	Sat Jan 20 21:29:01 2024
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ns
+$end
+
+$scope module servo_light_tb $end
+$var wire 32 ! desired_duty_cycle_clk [0] $end
+$var wire 32 " desired_duty_cycle_clk [1] $end
+$var wire 32 # desired_duty_cycle_clk [2] $end
+$var wire 32 $ desired_duty_cycle_clk [3] $end
+$var wire 32 % desired_period_clk $end
+$var wire 1 & CLK_UUT $end
+$var wire 1 ' O_UUT_00_vect [4] $end
+$var wire 1 ( O_UUT_00_vect [3] $end
+$var wire 1 ) O_UUT_00_vect [2] $end
+$var wire 1 * O_UUT_00_vect [1] $end
+$var wire 1 + O_UUT_00_vect [0] $end
+$var wire 1 , BTN_UUT_00 [1] $end
+$var wire 1 - BTN_UUT_00 [0] $end
+$var wire 1 . LLS_UUT_00 [3] $end
+$var wire 1 / LLS_UUT_00 [2] $end
+$var wire 1 0 LLS_UUT_00 [1] $end
+$var wire 1 1 LLS_UUT_00 [0] $end
+$var wire 1 2 VIRTUAL_FLAG_UUT_00 [3] $end
+$var wire 1 3 VIRTUAL_FLAG_UUT_00 [2] $end
+$var wire 1 4 VIRTUAL_FLAG_UUT_00 [1] $end
+$var wire 1 5 VIRTUAL_FLAG_UUT_00 [0] $end
+$var wire 32 6 state_00 $end
+$var wire 1 7 O_UUT_01_vect [4] $end
+$var wire 1 8 O_UUT_01_vect [3] $end
+$var wire 1 9 O_UUT_01_vect [2] $end
+$var wire 1 : O_UUT_01_vect [1] $end
+$var wire 1 ; O_UUT_01_vect [0] $end
+$var wire 1 < BTN_UUT_01 [1] $end
+$var wire 1 = BTN_UUT_01 [0] $end
+$var wire 1 > LLS_UUT_01 [3] $end
+$var wire 1 ? LLS_UUT_01 [2] $end
+$var wire 1 @ LLS_UUT_01 [1] $end
+$var wire 1 A LLS_UUT_01 [0] $end
+$var wire 1 B VIRTUAL_FLAG_UUT_01 [3] $end
+$var wire 1 C VIRTUAL_FLAG_UUT_01 [2] $end
+$var wire 1 D VIRTUAL_FLAG_UUT_01 [1] $end
+$var wire 1 E VIRTUAL_FLAG_UUT_01 [0] $end
+$var wire 32 F state_01 $end
+$var wire 1 G O_UUT_10_vect [4] $end
+$var wire 1 H O_UUT_10_vect [3] $end
+$var wire 1 I O_UUT_10_vect [2] $end
+$var wire 1 J O_UUT_10_vect [1] $end
+$var wire 1 K O_UUT_10_vect [0] $end
+$var wire 1 L BTN_UUT_10 [1] $end
+$var wire 1 M BTN_UUT_10 [0] $end
+$var wire 1 N LLS_UUT_10 [3] $end
+$var wire 1 O LLS_UUT_10 [2] $end
+$var wire 1 P LLS_UUT_10 [1] $end
+$var wire 1 Q LLS_UUT_10 [0] $end
+$var wire 1 R VIRTUAL_FLAG_UUT_10 [3] $end
+$var wire 1 S VIRTUAL_FLAG_UUT_10 [2] $end
+$var wire 1 T VIRTUAL_FLAG_UUT_10 [1] $end
+$var wire 1 U VIRTUAL_FLAG_UUT_10 [0] $end
+$var wire 32 V state_10 $end
+$var wire 1 W O_UUT_11_vect [4] $end
+$var wire 1 X O_UUT_11_vect [3] $end
+$var wire 1 Y O_UUT_11_vect [2] $end
+$var wire 1 Z O_UUT_11_vect [1] $end
+$var wire 1 [ O_UUT_11_vect [0] $end
+$var wire 1 \ BTN_UUT_11 [1] $end
+$var wire 1 ] BTN_UUT_11 [0] $end
+$var wire 1 ^ LLS_UUT_11 [3] $end
+$var wire 1 _ LLS_UUT_11 [2] $end
+$var wire 1 ` LLS_UUT_11 [1] $end
+$var wire 1 a LLS_UUT_11 [0] $end
+$var wire 1 b VIRTUAL_FLAG_UUT_11 [3] $end
+$var wire 1 c VIRTUAL_FLAG_UUT_11 [2] $end
+$var wire 1 d VIRTUAL_FLAG_UUT_11 [1] $end
+$var wire 1 e VIRTUAL_FLAG_UUT_11 [0] $end
+$var wire 32 f state_11 $end
+$var wire 1 g O_UUT_seq_vect [4] $end
+$var wire 1 h O_UUT_seq_vect [3] $end
+$var wire 1 i O_UUT_seq_vect [2] $end
+$var wire 1 j O_UUT_seq_vect [1] $end
+$var wire 1 k O_UUT_seq_vect [0] $end
+$var wire 1 l BTN_UUT_seq [1] $end
+$var wire 1 m BTN_UUT_seq [0] $end
+$var wire 1 n LLS_UUT_seq [3] $end
+$var wire 1 o LLS_UUT_seq [2] $end
+$var wire 1 p LLS_UUT_seq [1] $end
+$var wire 1 q LLS_UUT_seq [0] $end
+$var wire 1 r VIRTUAL_FLAG_UUT_seq [3] $end
+$var wire 1 s VIRTUAL_FLAG_UUT_seq [2] $end
+$var wire 1 t VIRTUAL_FLAG_UUT_seq [1] $end
+$var wire 1 u VIRTUAL_FLAG_UUT_seq [0] $end
+$var wire 32 v state_seq $end
+$var wire 32 w count $end
+$var wire 32 x runs $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+x'
+x(
+x)
+x*
+x+
+x7
+x8
+x9
+x:
+x;
+xG
+xH
+xI
+xJ
+xK
+xW
+xX
+xY
+xZ
+x[
+xg
+xh
+xi
+xj
+xk
+0,
+0-
+0.
+0/
+00
+01
+x2
+x3
+x4
+x5
+0<
+1=
+0>
+0?
+0@
+0A
+xB
+xC
+xD
+xE
+1L
+0M
+0N
+0O
+0P
+0Q
+xR
+xS
+xT
+xU
+1\
+1]
+0^
+0_
+0`
+0a
+xb
+xc
+xd
+xe
+0l
+0m
+0n
+0o
+0p
+0q
+xr
+xs
+xt
+xu
+b111101000010010000000 %
+b0 6
+b0 F
+b0 V
+b0 f
+b0 v
+b0 w
+b0 x
+b11000011010100000 !
+b101001100000010000 "
+b110101101101100000 #
+b111111011110100000 $
+$end
+#4
+0&
+#8
+1&

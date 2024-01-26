@@ -1,0 +1,5 @@
+v 4
+file . "stepper_light.vhdl" "156ea96363f70c2f124a67e8467b788c4e16a395" "20240123184109.098":
+  entity stepper_light at 1( 0) + 0 on 25;
+file . "stepper_light_beh.vhdl" "7bf47cc557ec015eae29d9156a16fac2cedc267d" "20240123184109.099":
+  architecture behavior of stepper_light at 1( 0) + 0 on 26;
